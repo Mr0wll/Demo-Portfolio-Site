@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        font-family: Tahoma, sans-serif;
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          200deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(255, 255, 255, 1) 39%,
+          rgba(255, 209, 145, 1) 70%,
+          rgba(255, 156, 16, 1) 100%
+        );
+      }
+      #menu {
+        background-color: rgb(79, 42, 42);
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        margin: 0px 0px 202px 0px;
+      }
+      form {
+        margin: 10px;
+        padding: 90px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-style: 2px solid;
+        border-radius: 55px;
+        text-align: justify;
+        box-shadow: 5px 5px 5px 5px;
+        width: 500px;
+      }
+      #box {
+        display: flex;
+        justify-content: center;
+      }
+      input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 4px;
+        width: 500px;
+      }
+      button {
+        border-style: 1px solid;
+        padding: 10px;
+        border-radius: 4px;
+        color: aliceblue;
+        background-color: rgb(90, 87, 83);
+        cursor: pointer;
+        box-shadow: 2px 2px 2px;
+      }
+      a {
+        color: #ffffff;
+        padding: 0 10px 0 10px;
+      }
+      #menu a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="social.html">Social</a>
+      <a href="admin.html">Admin</a>
+    </div>
+    <div id="box">
+      <form id="formm" action="">
+        <h2 align="center">Login</h2>
+        <label for="username" id="username">Username:</label> <br />
+        <br />
+        <input type="text" id="usname" /> <br />
+        <br />
+        <label for="passs" id="passs">Password:</label> <br />
+        <br />
+        <input type="password" id="pass" /> <br />
+        <br />
+        <button type="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
